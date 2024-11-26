@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(45deg, #f1f1efe8, #18ec57, #edf1ed);
+}
+.login-container,
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+form {
+  display: flex; /* Gunakan flexbox */
+  flex-direction: column; /* Elemen ditata secara vertikal */
+  align-items: center; /* Selaraskan elemen ke tengah */
+  gap: 15px; /* Jarak antar elemen */
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 80%; /* Lebar input */
+  padding: 10px; /* Jarak dalam */
+  font-size: 16px; /* Ukuran font */
+  border: 1px solid #ccc; /* Border standar */
+  border-radius: 5px; /* Sudut membulat */
+  box-sizing: border-box; /* Pastikan padding termasuk dalam width */
+}
+form button {
+  width: 40%; /* Lebar tombol lebih kecil */
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff; /* Warna biru */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #45a049;
+}
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #37b932;
+  padding: 10px 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid #0056b3;
+}
+
+.pdf-viewer {
+  width: 100%;
+  height: calc(100vh - 60px);
+  margin-top: 10px;
+}
+
+/* Tombol Logout */
+.logout-button {
+  margin-left: auto; /* Dorong tombol logout ke kanan */
+  padding: 10px 20px;
+  background-color: #00f7ff;
+  color: rgb(17, 9, 9);
+  border: 2;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #f70a0a;
+}
+
+/* Navbar Style */
+.navbar {
+  display: flex; /* Gunakan flexbox untuk tata letak */
+  align-items: center; /* Selaraskan elemen secara vertikal */
+  justify-content: flex-start; /* Posisikan elemen ke kiri */
+  background-color: #14be14; /* Warna biru */
+  padding: 10px 20px; /* Padding navbar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+  border-bottom: 2px solid #0056b3; /* Border bawah */
+}
+
+/* Logo Style */
+.navbar-logo {
+  width: 40px; /* Ukuran logo */
+  height: 40px;
+  margin-right: 10px; /* Jarak antara logo dan judul */
+  border-radius: 50%; /* Opsional: Buat logo melingkar */
+}
+
+/* Judul Navbar */
+.navbar-title {
+  color: rgb(243, 248, 244);
+  font-size: 24px; /* Ukuran teks */
+  font-weight: bold;
+  margin: 10; /* Hilangkan margin bawaan */
+}
